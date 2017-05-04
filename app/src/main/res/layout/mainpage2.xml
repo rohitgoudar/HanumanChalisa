@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/i1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="50dp"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HANUMAN CHALISA"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#880000"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAY AUDIO"
+            android:id="@+id/button"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:onClick="play"
+            android:padding="9sp"
+            android:background="#1295C9"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="70dp"/>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:text="1)\nShri Guru Charan Saroj Raj\nNij mane mukure sudhar\nVarnao Raghuvar Vimal Jasu\nJo dayaku phal char\n"
+         android:textSize="22dp"
+         android:layout_marginTop="40dp"
+         android:textColor="#0000CD"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Meaning: \nAfter cleansing the mirror of my mind with the pollen dust of holy Guru's Lotus feet.I Profess the pure, untainted glory of Shri Raghuvar which bestows the four-foldfruits of life.(Dharma, Artha, Kama and Moksha)."
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#180000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2)\nBudhi Hin Tanu Janike\nSumirau Pavan Kumar\nBal budhi Vidya dehu mohe\nHarahu Kalesa Vikar\n"
+            android:textSize="22dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#0000CD"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Meaning:\nFully aware of the deficiency of my intelligence, I concentrate my attention on Pavan Kumar and humbly ask for strength, intelligence and true knowledge to relieve me of all blemishes, causing pain"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#180000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="3)\nJai Hanuman gyan gun sagar \nJai Kapis tihun lok ujagar \nRam doot atulit bal dhama \nAnjani-putra Pavan sut nama\n"
+            android:textSize="22dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#0000CD"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Meaning: \nVictory to thee, O'Hanuman! Ocean of Wisdom-All hail to you O'Kapisa! (fountain-head of power,wisdom and Shiva-Shakti) You illuminate all the three worlds (Entire osmos) with your glory.You are the divine messenger of Shri Ram. The repository of immeasurable strength, though known only as Son of Pavan(Wind), born of Anjani"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#180000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="4)\nMahavir Vikram Bajrangi \nKumati nivar sumati Ke sangi \nKanchan varan viraj subesa \nKanan Kundal Kunchit Kesa\n "
+            android:textSize="22dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#0000CD"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Meaning: \nWith Limbs as sturdy as Vajra (The mace of God Indra) you are valiant and brave. On you attends good Sense and Wisdom. You dispel the darkness of evil thoughts. Your physique is beautiful golden coloured and your dress is pretty. You wear ear rings and have long curly hair."
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#180000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="5)\nHath Vajra Aur Dhuvaje Viraje \nKandhe moonj janehu sajai \nSankar suvan kesri Nandan\nTej pratap maha jag vandan\n"
+            android:textSize="22dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#0000CD"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Meaning:\nYou carry in your hand a lightening bolt along with a victory (kesari) flag and wear the sacred thread on your shoulder As a descendant of Lord Sankar, you are a comfort and pride of Shri Kesari. With the lustre of your Vast Sway, you are propitiated all over the universe."
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#180000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="6)\nVidyavan guni ati chatur\nRam kaj karibe ko aatur\nPrabu charitra sunibe ko rasiya\nRam Lakhan Sita man Basiya \n"
+            android:textSize="20dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#0000CD"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Meaning: \nYou are the repository of learning, virtuous and fully accom-plished, always keen to carry out the behest's of Shri Ram. You are an ardent listener, always so keen to listen to the narration of Shri Ram's Life Stories. Your heart is filled with what Shri Ram "
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#180000"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="7)\nAapan tej samharo aapai \nTeenhon lok hank te kanpai\nBhoot pisach Nikat nahin aavai\nMahavir jab naam sunavai\n"
+            android:textSize="22dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#0000CD"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Meaning: \nYou alone are befitted to carry your own splendid valour. All the three worlds (entire universe) tremor at your thunderous call. All the ghosts, demons and evil forces keep away, with the sheer mention of your great name, O'Mahaveer!!"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#180000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="8)\nNase rog harai sab peera \nJapat nirantar Hanumant beera\nSankat se Hanuman chudavai\nMan Karam Vachan dyan jo lavai"
+            android:textSize="22dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#0000CD"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Meaning:\nAll diseases, pain and suffering disappear on reciting regularly Shri Hanuman's holy name.Those who remember Shri Hanuman in thought, words and deeds with Sincerity and Faith, are rescued from all crises in life."
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#180000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="9)\nSub par Ram tapasvee raja \nTin ke kaj sakal Tum saja\nAur manorath jo koi lavai\nSohi amit jeevan phal pavai\n"
+            android:textSize="22dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#0000CD"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Meaning:\nAll who hail, worship and have faith in Shri Ram as the Supreme Lord and the king of penance. You make all their difficult tasks very easy. Whosoever comes to you for fulfillment of any desire with faith and sincerity, Will he alone secure the imperishable fruit of human life."
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#180000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="10)\nCharon Yug partap tumhara \nHai persidh jagat ujiyara\nSadhu Sant ke tum Rakhware\nAsur nikandan Ram dulhare\n"
+            android:textSize="22dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#0000CD"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Meaning:\nAll through the four ages your magnificent glory is acclaimed far and wide. Your fame is Radiantly acclaimed all over the Cosmos. You are Saviour and the guardian angel of Saints and Sages and destroy all Demons. You are the angelic darling of Shri Ram."
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#180000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="11)\nAshta sidhi nav nidhi ke dhata\nUs var deen Janki mata\nRam rasayan tumhare pasa\nSada raho Raghupati ke dasa"
+            android:textSize="22dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#0000CD"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Meaning:\nYou can grant to any one, any yogic power of Eight Siddhis (power to become light and heavy at will) and Nine Nidhis. This boon has been conferred upon you by Mother Janki.You possess the power of devotion to Shri Ram. In all rebirths you will always remain Shri Raghupati's most dedicated disciple."
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#180000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="12)\nTumhare bhajan Ram ko pavai\nJanam janam ke dukh bisravai\nAnth kaal Raghuvir pur jayee\nJahan janam Hari-Bakht Kahayee\n"
+            android:textSize="22dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#0000CD"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Meaning:\nThrough hymns sung in devotion to you, one can find Shri Ram and become free from sufferings of several births.If at the time of death one enters the Divine Abode of Shri Ram, thereafter in all future births he is born as the Lord's devotee."
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#180000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="13)\nAur Devta Chit na dharehi \nHanumanth se hi sarve sukh karehi\nSankat kate mite sab peera\nJo sumirai Hanumat Balbeera\n"
+            android:textSize="22dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#0000CD"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Meaning:\nOne need not entertain any other deity for Propitiation, as devotion of Shri Hanuman alone can give all happiness. One is freed from all the sufferings and ill fated contingencies of rebirths in the world. One who adores and remembers Shri Hanuman."
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#180000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="14)\nJai Jai Jai Hanuman Gosahin \nKripa Karahu Gurudev ki nyahin\nJo sat bar path kare kohi\nChutehi bandhi maha sukh hohi\n"
+            android:textSize="22dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#0000CD"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Meaning: \nHail, Hail, Hail, Shri Hanuman, Lord of senses. Let your victory over the evil be firm and final. Bless me in the capacity as my supreme guru.One who recites Chalisa one hundred times, becomes free from the bondage of life and death and enjoys the highest bliss at last."
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#180000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="15)\nJo yah padhe Hanuman Chalisa\nHoye siddhi sakhi Gaureesa\nTulsidas sada hari chera\nKeejai Das Hrdaye mein dera\n"
+            android:textSize="22dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#0000CD"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Meaning: \nAll those who recite Hanuman Chalisa (The forty Chaupais) regularly are sure to be benedicted. Such is the evidence of no less a witness as Bhagwan Sankar. Tulsidas as a bonded slave of the Divine Master, stays perpetually at his feet, he prays 'Oh Lord! You enshrine within my heart and soul.' "
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#180000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="16)\nPavantnai sankar haran, \nMangal murti roop.\nRam Lakhan Sita sahit,\nHrdaye basahu sur bhoop.\n"
+            android:textSize="22dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#0000CD"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Meaning:\nOh! conqueror of the Wind, Destroyer of all miseries, you are a symbol of Auspiciousness. Along with Shri Ram, Lakshman and Sita, reside in my heart. Oh! King of Gods."
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#180000"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:id="@+id/button2"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:onClick="back"
+            android:padding="5sp"
+            android:background="#1295C9"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+
+
+</ScrollView>

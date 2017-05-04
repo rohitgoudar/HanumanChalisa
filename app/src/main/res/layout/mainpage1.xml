@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.appdeveloperrohitgmail.hanumanchalisa.MainActivity"
+    android:background="@drawable/hanu1">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAY AUDIO"
+        android:id="@+id/button"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:onClick="play"
+        android:padding="9sp"
+        android:background="#1295C9"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MEANING"
+        android:id="@+id/button2"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:padding="9sp"
+        android:background="#000066"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:onClick="Meaning"/>
+
+
+</RelativeLayout>
